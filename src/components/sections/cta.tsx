@@ -15,12 +15,12 @@ export const CallToActionSection = () => {
       </div>
       <div className="w-full justify-center items-center mt-[30px] md:w-fit">
         <Button
-          className="w-full gap-2.5 min-w-[324px] max-w-[324px] text-xl rounded-[10px]"
+          className="w-full gap-2.5 max-w-[324px] text-xl rounded-[10px]"
           variant="secondary"
         >
           Get Started <CtaButtonArrow />
         </Button>
-        <small className="font-normal text-center w-full block text-xs leading-4 mt-2.5">
+        <small className="font-normal text-center sm:text-left w-full block text-xs leading-4 mt-2.5">
           1-minute quiz for personalized Insights
         </small>
       </div>
